@@ -71,6 +71,22 @@ import img68 from '../../assets/image68.png';
 import img69 from '../../assets/image69.png';
 import img70 from '../../assets/image70.png';
 import img71 from '../../assets/image71.png';
+import img72 from '../../assets/image72.png';
+import img73 from '../../assets/image73.png';
+import img74 from '../../assets/image74.png';
+import img75 from '../../assets/image75.png';
+import img76 from '../../assets/image76.png';
+import img77 from '../../assets/image77.png';
+import img78 from '../../assets/image78.png';
+import img79 from '../../assets/image79.png';
+import img80 from '../../assets/image80.png';
+import img81 from '../../assets/image81.png';
+import img82 from '../../assets/image82.png';
+import img83 from '../../assets/image83.png';
+import img84 from '../../assets/image84.png';
+import img85 from '../../assets/image85.png';
+import img86 from '../../assets/image86.png';
+import img87 from '../../assets/image87.png';
 
 const posters = [
   {
@@ -427,7 +443,87 @@ const posters = [
     id: 71,
     image: img71,
     description: 'Poster 71',
-  }
+  },
+  {
+    id: 72,
+    image: img72,
+    description: 'Poster 72',
+  },
+  {
+    id: 73,
+    image: img73,
+    description: 'Poster 73',
+  },
+  {
+    id: 74,
+    image: img74,
+    description: 'Poster 74',
+  },
+  {
+    id: 75,
+    image: img75,
+    description: 'Poster 75',
+  },
+  {
+    id: 76,
+    image: img76,
+    description: 'Poster 76',
+  },
+  {
+    id: 77,
+    image: img77,
+    description: 'Poster 77',
+  },
+  {
+    id: 78,
+    image: img78,
+    description: 'Poster 78',
+  },
+  {
+    id: 79,
+    image: img79,
+    description: 'Poster 79',
+  },
+  {
+    id: 80,
+    image: img80,
+    description: 'Poster 80',
+  },
+  {
+    id: 81,
+    image: img81,
+    description: 'Poster 81',
+  },
+  {
+    id: 82,
+    image: img82,
+    description: 'Poster 82',
+  },
+  {
+    id: 83,
+    image: img83,
+    description: 'Poster 83',
+  },
+  {
+    id: 84,
+    image: img84,
+    description: 'Poster 84',
+  },
+  {
+    id: 85,
+    image: img85,
+    description: 'Poster 85',
+  },
+  {
+    id: 86,
+    image: img86,
+    description: 'Poster 86',
+  },
+  {
+    id: 87,
+    image: img87,
+    description: 'Poster 87',
+  },
 ];
 
 export default function PosterPage() {
