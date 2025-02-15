@@ -1,0 +1,4 @@
+body {
+    --angle: 45deg; 
+ background: linear-gradient(var(--angle), oklab(53% 0.171 -0.205), oklab(22.1% -0.02 -0.063))
+}

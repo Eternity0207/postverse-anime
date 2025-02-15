@@ -1,0 +1,79 @@
+/* PosterPage.css */
+
+/* Main container with a dark backdrop for neon contrast */
+.poster-page {
+  margin: 120px auto 0 auto; /* Adjust 120px as needed */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  box-sizing: border-box;
+  background: #0d0d0d; /* Dark background enhances neon glow */
+}
+
+/* Modern neon card design */
+.poster-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Neon border effect using a pseudo-element */
+.poster-card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+/* Increase neon glow on hover */
+.poster-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  .poster-text {
+    color: black;
+  }
+}
+
+.poster-card:hover::before {
+  opacity: 1;
+}
+
+/* Poster image styling with a subtle neon accent */
+.poster-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 100px;
+  border-bottom: 2px solid #00ffff;
+}
+
+/* Poster text styling with neon hints */
+.poster-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  justify-self: center;
+  padding: 1rem;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  /* background: #1a1a1a; */
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+  border-top: 2px solid #ff00ff;
+}
